@@ -26,6 +26,7 @@
     }
     .burger-menu {
         display: flex;
+        margin-right: -80%;
     }
 }
 

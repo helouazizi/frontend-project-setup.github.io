@@ -39,7 +39,7 @@ li {
 
 /* start styling the header */
 .header {
-    background-color: rgba(240, 255, 255, 0.782);
+    background-color: rgba(240, 255, 255, 0);
     display: flex;
     align-content: center;
     width: 100%;
@@ -54,7 +54,7 @@ li {
     align-items: center;
     width: 40%;
     text-align: start;
-    color: rgb(8 107 136);
+    color: rgb(5, 52, 67);
     font-size: xx-large;
     font-family: cursive;
     font-weight: bold;
@@ -76,4 +76,16 @@ li {
 
 .burger-menu {
     display: none;
+    color: rgb(8, 62, 112);
+    font-size: xx-large;
+}
+
+
+
+
+/* start styling the content section */
+
+.main-content {
+    height: calc(100vh - 100px);
+    background-color: antiquewhite;
 }

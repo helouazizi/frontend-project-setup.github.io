@@ -39,7 +39,6 @@ li {
 
 /* start styling the header */
 .header {
-    background-color: rgba(240, 255, 255, 0);
     display: flex;
     align-content: center;
     width: 100%;
@@ -52,12 +51,10 @@ li {
     padding-left: 5%;
     display: flex;
     align-items: center;
-    width: 40%;
+    width: 30%;
     text-align: start;
-    color: rgb(5, 52, 67);
-    font-size: xx-large;
-    font-family: cursive;
-    font-weight: bold;
+    color: rgb(241, 93, 108);
+    font-size: 20px;
 }
 
 .links {
@@ -65,22 +62,21 @@ li {
     align-items: center;
     justify-content: space-evenly;
     width: 60%;
-    font-size: larger;
-    font-family: cursive;
-    
+    color: rgba(240, 255, 255, 0.778);
 }
 
 .links a{
-    color: #0a0808b1;
+    color: #ffffffb1;
 }
 
-.burger-menu {
+.btn {
+    /*display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    background-color: blue;*/
     display: none;
-    color: rgb(8, 62, 112);
-    font-size: xx-large;
 }
-
-
 
 
 /* start styling the content section */

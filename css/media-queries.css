@@ -1,0 +1,45 @@
+/* lets use media queries to make our project responsible */
+
+/* small devices */ 
+@media (min-width: 200px) { /* the minimum case posible */
+    
+}
+
+
+
+@media (min-width: 375px) { /* mini iphone */
+    
+}
+
+@media (min-width: 768px) { /* ipad mini */
+    
+}
+
+
+/* medium devices */ 
+ 
+
+/* for me and my project a always designing my work for this breakpoint (820 px )*/
+@media (max-width: 820px) { /* ipad air */
+    .all-links {
+        display: none;
+    }
+    .burger-menu {
+        display: flex;
+    }
+}
+
+
+
+@media (max-width: 1024px) { /* ipad pro */
+    
+
+    
+}
+
+
+/* larg devices */ 
+
+@media (min-width: 1200px) { /* from ipad pro into lagre devicies */
+    
+}

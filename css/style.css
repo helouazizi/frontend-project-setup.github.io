@@ -1,3 +1,79 @@
-h1 {
-    color: rgb(2, 70, 147);
+/* global rules */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgba(1, 69, 100, 0.708);
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* end global rules */
+
+
+
+
+
+.container { /* this container hold all content in the body */
+    margin: auto;
+    /*background-color: antiquewhite;*/
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* start styling the header */
+.header {
+    background-color: rgba(240, 255, 255, 0.782);
+    display: flex;
+    align-content: center;
+    width: 100%;
+    height: 100px;
+    /*background-color: antiquewhite;*/
+}
+
+.logo {
+    /*background-color: aqua;*/
+    padding-left: 5%;
+    display: flex;
+    align-items: center;
+    width: 40%;
+    text-align: start;
+    color: rgb(8 107 136);
+    font-size: xx-large;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+    font-size: larger;
+    font-family: cursive;
+    
+}
+
+.links a{
+    color: #0a0808b1;
+}
+
+.burger-menu {
+    display: none;
 }

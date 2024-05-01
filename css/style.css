@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background-color: rgba(1, 69, 100, 0.708);
+    background-color: #0f172a;
 }
 
 a {
@@ -53,20 +53,24 @@ li {
     align-items: center;
     width: 30%;
     text-align: start;
-    color: rgb(241, 93, 108);
-    font-size: 20px;
+    color: rgb(192, 133, 85);
+    font-size: xx-large;
+    font-family: cursive;
+    font-weight: bold;
 }
 
 .links {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 60%;
-    color: rgba(240, 255, 255, 0.778);
+    width: 70%;
+    
 }
 
 .links a{
-    color: #ffffffb1;
+    color: #ffffffdf;
+    font-size: large;
+    font-family: cursive;
 }
 
 .btn {

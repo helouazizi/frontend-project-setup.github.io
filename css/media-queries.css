@@ -84,15 +84,15 @@
     }
 
     .social-media a i {
-        font-size: x-large;
+        font-size: large;
     }
 
     .footer-hs {
-        font-size: xx-small;
+        font-size: x-small;
     }
 
     .usefull-links ul li a {
-        font-size: xx-small;
+        font-size: small;
     } 
 
 }

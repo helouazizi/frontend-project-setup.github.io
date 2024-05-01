@@ -66,7 +66,22 @@
     }
 
 
+    .ouazizi-brand .ouazizi-logo .big-o {
+        color: rgba(255, 166, 0, 0.893);
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 3px;
+        background-color: rgba(6, 40, 70, 0.803);
+        border-radius:5px;
+        margin-left: 5px;
+        font-size: large;
+        
+    }
     
+    .ouazizi-brand .ouazizi-logo .small-text {
+        color: rgba(255, 166, 0, 0.8);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium; 
+    }
 
 }
 

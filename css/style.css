@@ -87,7 +87,12 @@ li {
 
 .main-content {
     height: calc(100vh - 100px);
-    background-color: antiquewhite;
+    background-color: rgb(91, 92, 92);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0f172a;
+    border-radius: 10px;
 }
 
 

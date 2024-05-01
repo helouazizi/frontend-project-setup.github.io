@@ -2,13 +2,13 @@
 
 /* small devices */ 
 @media (min-width: 200px) { /* the minimum case posible */
-    
+     
 }
 
 
 
 @media (min-width: 375px) { /* mini iphone */
-    
+     
 }
 
 @media (min-width: 768px) { /* ipad mini */
@@ -21,6 +21,9 @@
 
 /* for me and my project a always designing my work for this breakpoint (820 px )*/
 @media (max-width: 820px) { /* ipad air */
+    .container {
+        padding: 0px 5px;
+    }
     .links{
         display: none;
     }

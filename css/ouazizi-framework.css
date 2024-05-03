@@ -272,8 +272,44 @@
 .d-i-b {
     display: inline-block;
 }
-/* usefull font */
+/* usefull fonts */
 
 .f-f {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.f-s-l {
+    font-size: large;
+}
+
+.f-s-2l {
+    font-size: larger;
+}
+
+.f-s-xl {
+    font-size: x-large;
+}
+
+.f-s-xxl {
+    font-size: xx-large;
+}
+
+.f-s-m {
+    font-size: medium;
+}
+
+.f-s-s {
+    font-size: small;
+}
+
+.f-s-2s {
+    font-size: smaller;
+}
+
+.f-s-xs {
+    font-size: x-small;
+}
+
+.f-s-xxs {
+    font-size: xx-small;
 }

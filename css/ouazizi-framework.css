@@ -1,8 +1,279 @@
 /* setup somme class */
 
-.active {
-    background-color: rgba(120, 121, 122, 0.904);
-    border: none;
+
+
+
+/* usefull  colors */
+
+.bg-eee {
+    background-color: #eee;
+}
+
+.bg {
+    background-color: #cbd5e1;
+}
+
+.bg-mine {
+    background-color: #0f172a;
+}
+
+.bg-gry {
+    background-color: #c8c8d1;
+}
+
+.bg-rd {
+    background-color: #fee2e2;
+}
+
+
+
+
+
+
+/* usefull padings */
+
+
+.p-5 {
+    padding: 5px;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.p-15 {
+    padding: 15px;
+}
+
+.pt-5 {
+    padding-top: 5px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.pt-15 {
+    padding-top: 15px;
+}
+.p-l-r-5 {
+    padding: 0px 5px;
+}
+
+.p-l-r-10 {
+    padding: 0px 10px; 
+}
+
+.p-l-r-15 {
+    padding: 0px 15px; 
+}
+
+.pb-5 {
+    padding-bottom: 5px;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.pb-15 {
+    padding-bottom: 15px;
+}
+
+
+.mrjn-5 {
+    margin: 5px;
+}
+
+.mrjn-10 {
+    margin: 10px;
+}
+
+.mrjn-15 {
+    margin: 15px;
+}
+
+.mrjnt-5 {
+    margin-top: 5px;
+}
+
+.mrjnt-10 {
+    margin-top: 10px;
+}
+
+.mrjnt-15 {
+    margin: 15px;
+}
+
+.mrjn-l-r-5 {
+    margin: 0px 5px;
+}
+
+.mrjn-l-r-10 {
+    margin: 5px;
+}
+
+.mrjn-l-r-15 {
+    margin: 5px;
+}
+
+.mrjnb-5 {
+    margin-bottom: 5px;
+}
+
+.mrjnb-10{
+    margin-bottom: 10px;
+}
+
+.mrjnb-15 {
+    margin-bottom: 15px;
+}
+
+
+/* usefull radius */
+
+.rad-5 {
+    border-radius: 5px;
+}
+
+.rad-10 {
     border-radius: 10px;
-    padding: 5px 15px;
+}
+
+.rad-15 {
+    border-radius: 15px;
+}
+
+.rad-20 {
+    border-radius: 20px;
+}
+
+.rad-50 {
+    border-radius: 50%;
+}
+
+
+
+/* usefull widths and hieghts */
+
+.w-full {
+    width: 100%;
+}
+
+.w-fit-c {
+    width: fit-content;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.h-100vh {
+    height: 100vh;
+}
+
+.h-fit-c {
+    height: fit-content;
+}
+
+
+
+
+/* usefull grids */
+/*.d-grid-xxsmall {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+    gap: 10px;
+}
+
+.d-grid-xsmall {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    gap: 10px;
+}
+
+.d-grid-small {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px,1fr));
+    gap: 15px;
+}
+
+.d-grid-medium {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px,1fr));
+    gap: 15px;
+}
+
+.d-grid-large {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450px,1fr));
+    gap: 20px;
+}*/
+.d-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    gap: 20px;
+}
+
+
+
+.txt-c {
+    text-align: center;
+}
+
+/* usefull flex */
+
+.d-flex {
+    display: flex;
+}
+.d-flex-c {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.d-flex-end {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.d-flex-start {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.d-flex-s-b {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.d-flex-s-e {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.d-flex-s-a {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.d-block {
+    display: block;
+}
+
+.d-inline {
+    display: inline;
+}
+
+.d-i-b {
+    display: inline-block;
+}
+/* usefull font */
+
+.f-f {
+    font-family: Arial, Helvetica, sans-serif;
 }

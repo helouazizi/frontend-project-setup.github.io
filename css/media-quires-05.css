@@ -1,0 +1,56 @@
+
+/* always in front end  start designning for small devices and go through up */
+
+
+
+/* X-Small devices (portrait phones, less than 576px)*/
+    /* in this section shoud be you design  */
+
+/* xx-Small devices (landscape phones, 576px and up)*/
+@media (max-width: 375px) {
+    .d-grid-xxsmall { /* it a class */
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+        gap: 10px;
+    }
+  }
+/* x-Small devices (landscape phones, 576px and up)*/
+@media (min-width: 375px ) and (max-width:576px) { 
+    .d-grid-xsmall { /* its a class */
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+        gap: 10px;
+    }
+ }
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px ) { 
+    .d-grid-small { /* its a class*/
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+        gap: 15px;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+    .d-grid-medium { /* its a class*/
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(350px,1fr));
+        gap: 15px;
+    }
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+    .d-grid-large { /* its a class*/
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(400px,1fr));
+        gap: 20px;
+    }
+ }
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {  }
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {  }

@@ -1,113 +1,88 @@
 /* lets use media queries to make our project responsible */
 
-/* small devices */ 
-@media (min-width: 200px) { /* the minimum case posible */
-     
-}
 
 
+/* xx-Small devices (portrait phones, less than 300px)*/
+@media (max-width: 300px) { 
 
-@media (min-width: 375px) { /* mini iphone */
-     
-}
-
-@media (min-width: 768px) { /* ipad mini */
-    
-}
-
-
-/* medium devices */ 
- 
-
-/* for me and my project a always designing my work for this breakpoint (820 px )*/
-@media (max-width: 820px) { /* ipad air */
+    /* global rules */
     .container {
-        padding: 0px 5px;
-    }
-    .links{
-        display: none;
-    }
-    .show {
-        position: absolute;
-        margin-top: 100px;
-        display: block;
-        width: 93%;
-        height: auto;
-        text-align: center;
-        background-color: rgb(0 0 0 / 88%);
-        color: rgba(240, 248, 255, 0.775);
+        padding-left: 5px;
+        padding-right: 5px;
     }
 
-    .show a {
-        display: block;
-        padding: 10px;
-    }
-
-    .hide {
-        display: none;
-    }
-
-    .btn {
-        width: 70%;
-        display: flex;
-        align-items: center;
-        justify-content: end;
-        padding-right: 5%;
-    } 
-
-    .btn button {
-        background-color: rgba(193, 105, 105, 0);
-        border: none;
-    } 
-
-    .btn button i {
-        font-size: xx-large;
-        color: #e8e1e1;
-    }
-
-
-    .ouazizi-brand .ouazizi-logo .big-o {
-        color: rgba(255, 166, 0, 0.893);
-        font-family: Arial, Helvetica, sans-serif;
-        padding: 3px;
-        background-color: rgba(6, 40, 70, 0.803);
-        border-radius:5px;
-        margin-left: 5px;
-        font-size: x-large;
+    h1 {
         
-    }
-    
-    .ouazizi-brand .ouazizi-logo .small-text {
-        color: rgba(255, 166, 0, 0.8);
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: large; 
-    }
-
-    .social-media a i {
         font-size: large;
     }
 
-    .footer-hs {
-        font-size: x-small;
+    h2 {
+        
+        font-size: medium;
     }
 
-    .usefull-links ul li a {
+    p,span {
+        font-size: xx-small;
+    }
+
+    /* end global rules */
+ }
+
+/* X-Small devices (portrait phones, betwen 300px 576px)*/
+@media (min-width: 300px) and (max-width:768px) {
+    
+    /* global rules */
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    h1 {
+        
+        font-size: x-large;
+    }
+
+    h2 {
+       
+        font-size: large;
+    }
+
+    p,span {
         font-size: small;
-    } 
+    }
 
-}
+    /* end global rules */
+ }
 
 
 
-@media (max-width: 1024px) { /* ipad pro */
+/* Small devices (landscape phones, up than 768px)*/
+/* your designs should be from this point for phones ( ipad mini 768 px)*/
+@media (min-width: 768px) { 
+
+    /* global rules */
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    /* end global rules */
+ }
+
+/* Medium devices (tablets, less than 820px (ipad air))*/
+@media (min-width: 820px) { 
     
+ }
 
+/*Large devices (desktops, up than 1200px)*/
+@media (min-width: 1200px) { 
     
-}
+ }
 
+/* X-Large devices (large desktops, up than 1400px)*/
+@media (min-width: 1400px) { 
 
-/* larg devices */ 
+ }
 
-@media (min-width: 1200px) { /* from ipad pro into lagre devicies */
-    
-}
+/* XX-Large devices (larger desktops)*/
+/* No media query since the xxl breakpoint has no upper bound on its width*/

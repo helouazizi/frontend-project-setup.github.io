@@ -1,4 +1,4 @@
-/* global rules */
+/*====== start global rules =======*/
 
 * {
     box-sizing: border-box;
@@ -10,6 +10,8 @@ html {
 
 body {
     background-color: #0f172a;
+    margin: 0px;
+    padding: 0px;
     
 }
 
@@ -21,13 +23,14 @@ li {
     list-style: none;
 }
 
-/* end global rules */
+/*====== end global rules =======*/
 
 
 
 
 
-/* start styling the header */
+/* ===== start styling header =======*/
+
 .header {
     display: flex;
     align-content: center;
@@ -35,6 +38,8 @@ li {
     height: 100px;
     /*background-color: antiquewhite;*/
 }
+
+
 
 .new-header {
     display: flex;
@@ -46,6 +51,7 @@ li {
     display: flex;
     align-items: center;
     width: 20%;
+    margin-left: 5%;
 
 }
 
@@ -62,7 +68,7 @@ li {
 .new-logo .small-text {
     color: rgba(238, 118, 75, 0.932);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
+    font-size: x-large;
 }
 
 .new-links {
@@ -76,13 +82,13 @@ li {
 .new-links a {
     display: flex;
     color: #cbd5e1c8;
+    padding: 5px 10px 5px 10px ;
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
 }
 
 .new-links a:hover {
     background-color: #96abc9;
-    padding: 5px 10px 5px 10px ;
     color: #3c3c3c;
     border-radius: 10px;
 }
@@ -103,9 +109,9 @@ li {
         display: block;
         position: absolute;
         margin-top: 250px;
-        width: calc(100% - 25px);
-        margin-left:  10px;
-        margin-right: 10px;
+        width: 100% ;
+        margin-left:  0px;
+        margin-right: 0px;
         text-align: center;
         background-color: #96abc9;
     }
@@ -124,33 +130,38 @@ li {
         display: flex;
         position: absolute;
         right: 0;
-        margin-right: 3%;
+        margin-right: 6%;
     }
     
     .burger a i {
-        font-size: larger;
+        font-size: x-large;
         color: #cbd5e1;
     }
 }
-/* end the styling header*/
+/* ===== end the styling header =======*/
 
 
 
-/* this for the content */
 
-
-.main-content {
-    width: 100%;
-    background-color: #2d2f4e5c;
-    height: 100vh;
-    
-}
+/* ======= start styling the content section ======== */
 
 
 
 
 
-/* start styling the footer */
+
+
+
+
+
+
+
+
+/* ======= end styling the content section ======== */
+
+
+
+/*======= start styling the footer =======*/
 
 .footer {
     background-color: rgba(157, 121, 121, 0);
@@ -164,7 +175,7 @@ li {
 }
 
 .ouazizi-brand .ouazizi-logo {
-    width: 40%;
+    width: 30%;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -178,21 +189,21 @@ li {
     background-color: rgba(6, 40, 70, 0.803);
     border-radius:5px;
     margin-left: 5px;
-    font-size: xxx-large;
+    font-size: x-large;
 }
 
 .ouazizi-brand .ouazizi-logo .small-text {
     color: rgba(255, 166, 0, 0.8);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: xx-large;
+    font-size: large;
 }
 
 .ouazizi-brand .social-media {
-    width: 60%;
+    width: 70%;
     display: flex;
     justify-content: end;
     align-items: center;
-    padding-right: 10%;
+    
 }
 
 .ouazizi-brand .social-media a {
@@ -210,9 +221,6 @@ margin-left: 5%;
     gap: 10%;
     grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
 }
-
-
-
 
 
 .footer-hs {
@@ -266,20 +274,13 @@ margin-left: 5%;
     margin-bottom:  15px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 .copyright {
 
     margin-top: 150px;
     text-align: center;
     color: rgba(240, 248, 255, 0.849);
 }
+
+
+
+

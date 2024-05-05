@@ -216,17 +216,17 @@
 /*======= usefull grids ======== */
 
 
-.d-grid-xxsmall {
+/*.d-grid-xxs {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
     gap: 10px;
-}
+}*/
 
-.d-grid-xsmall {
+/*.d-grid-xsmall {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
     gap: 10px;
-}
+}*/
 
 .d-grid-small {
     display: grid;
@@ -240,11 +240,11 @@
     gap: 15px;
 }
 
-.d-grid-large {
+/*.d-grid-large {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(450px,1fr));
     gap: 20px;
-}
+}*/
 .d-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px,1fr));

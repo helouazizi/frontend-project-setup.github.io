@@ -4,6 +4,28 @@
 
 
 /*======= usefull  colors ==========*/
+.c-black {
+    color: rgba(0, 0, 0, 0.851);
+}
+
+.c-blue {
+    color: rgba(0, 0, 255, 0.752);
+}
+
+.c-red {
+    color: rgba(255, 0, 0, 0.862);
+}
+
+.c-white {
+    color :white
+}
+
+.c-gray {
+    color: gray;
+}
+.c-green {
+    color: green;
+}
 
 .bg-eee {
     background-color: #eee;
@@ -27,12 +49,48 @@
 }
 .bg-brand {
     background-color: rgba(40, 40, 227, 0.284);
+    color: aliceblue;
+}
+
+.bg-blue {
+    background-color: rgba(38, 38, 214, 0.834);
 }
 
 /*======= usefull sizes ======*/
 .size-30 {
     width: 30px;
     height: 30px;
+}
+
+.size-40 {
+    width: 40px;
+    height: 40px;
+}
+
+
+.size-50 {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.size-60 {
+    width: 60px;
+    height: 60px;
+}
+
+
+
+.size-70 {
+    width: 70px;
+    height: 70px;
+}
+
+
+.size-80 {
+    width: 80px;
+    height: 80px;
 }
 
 
@@ -94,7 +152,9 @@
     padding-bottom: 15px;
 }
 
-
+.m-0{
+    margin: 0px;
+}
 .m-5 {
     margin: 5px;
 }
@@ -119,6 +179,10 @@
     margin-top: 15px;
 }
 
+.mt-20 {
+    margin-top: 20px;
+}
+
 .m-l-r-5 {
     margin-left: 5px;
     margin-right: 5px;
@@ -132,6 +196,11 @@
 .m-l-r-15 {
     margin-left: 15px;
     margin-right: 15px;
+}
+
+.m-l-r-20 {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .mb-5 {
@@ -316,6 +385,14 @@
     display: inline-block;
 }
 
+.p-relative {
+    position: relative;
+}
+
+.p-absolute {
+    position: absolute;
+}
+
 
 
 
@@ -323,6 +400,14 @@
 
 .txt-c {
     text-align: center;
+}
+
+.txt-end {
+    text-align: end;
+}
+
+.txt-start {
+    text-align: start;
 }
 .f-f {
     font-family: Arial, Helvetica, sans-serif;
